@@ -1,0 +1,102 @@
+[
+    {
+        "id":1,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Ja" 
+    },
+    {
+        "id":2,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Nej" 
+    },
+    {
+        "id":3,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Ja" 
+    },
+    {
+        "id":4,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Ja" 
+    },
+    {
+        "id":5,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Ja" 
+    },
+    {
+        "id":6,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Ja" 
+    },
+    {
+        "id":7,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Ja" 
+    },
+    {
+        "id":8,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Ja" 
+    },
+    {
+        "id":9,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Ja" 
+    },
+    {
+        "id":10,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Ja" 
+    }
+]

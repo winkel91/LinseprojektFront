@@ -1,0 +1,31 @@
+#navbar{
+    background-color:#1c283e;
+    height: 5vh;
+}
+
+#searchbar {
+    display: flex;
+    flex-direction: row;
+}
+#form1{
+    border-radius: 11px 0px 0px 11px;
+}
+#box{
+    height: 94vh;
+}
+
+#i{
+    background-color:#1c283e;
+    border-radius: 0px 11px 11px 0px;
+}
+
+
+#back{
+    display: flex;
+    margin-left: 5vw;
+
+    
+    color: aliceblue;
+
+   
+}
