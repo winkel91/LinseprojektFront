@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lensStrength.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><!-- CSS only -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+    <title>Document</title>
+
+
+</head>
+<body>
+
+
+    <nav id="lol"  class="navbar navbar-light" ;>
+        
+        <div>
+            <svg id="back" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-square" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+          </svg> </div>
+    
+    </nav>
+    <!--Dropdown til leverandør  <div class="bg-image h-100" >  </div>
+   -->
+
+
+    
+    
+    <div id="backgroundBox" class="mask d-flex align-items-center" style="background-color: rgba(144, 140, 136, 0.332);">
+        <div id="headline">
+            <p class="h2">Linsestyrke</p>
+        </div>
+
+        <div id="customerInfoBox" class="mask d-flex align-items-center" style="background-color: rgba(98, 78, 58, 0);">
+       
+            <div id="idNumberBox" class="container"> 
+                <label id="idNumberBox1">Kunde nummer</label>
+                <input id="inputBox" type="text" placeholder="Kunde nummer"> 
+    
+            </div>
+    
+            <div id="nameBox"class="container"> 
+                <label id="idNumberBox1" >Navn</label>
+                <input id="inputBox" type="text" placeholder="Navn"> 
+            </div>
+    
+            <div id="lastNamebox" class="container" > 
+                <label id="idNumberBox1" >Efternavn</label>
+                <input id="inputBox" type="text" placeholder="Efternavn"> 
+                
+            </div>
+            
+        </div>
+      
+
+    <div id="boxOne" class="container-md mt-3 border">
+       
+       
+      
+
+        <div id="firstRow" start på første række>
+
+            
+
+            <input  class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault" style="color: white;">
+              H
+            </label>
+
+             <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Skiftefrekvenes</option>
+                <option value="1">1 dag</option>
+                <option value="2">14 dage</option>
+                <option value="3">Måned</option>
+              </select>
+
+              <!--Dropdown til leverandør   -->
+              <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Leverandør</option>
+                <option value="1">Alcon Danmark ApS</option>
+                <option value="2">Bausch & Lomb</option>
+                <option value="3">Disophta</option>
+                <option value="4">Johnson & Johnson </option>
+                <option value="5">Lindcon Linser</option>
+                <option value="6">Vison Care</option>
+              </select>
+
+              <!--Dropdown til linsetype -->
+              <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Linsetype</option>
+                <option value="1">1-DAY ACUVUE MOIST</option>
+                <option value="2">1-DAY ACUVUE MOIST FOR ASTIGMATISME</option>
+                <option value="3">1-DAY ACUVUE MOIST MULTIFOCAL WITH LARCREON </option>
+                <option value="4">1-DAY ACUVUE TRUEYE  </option>
+                <option value="5">ACUVUE OASYS HYDRALUXE FOR ASTIGMATISME</option>
+                <option value="6">ACUVUE OASYS WITH HYDRALUXE</option>
+             </select>
+
+              <!--Dropdown til radie  -->
+              <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Radie</option>
+                <option value="1">8,50</option>
+                <option value="2">9,00</option>
+              </select>
+
+              <!--Dropdown til diam  -->
+              <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Diam</option>
+                <option value="1">14,30</option>
+              </select>
+
+              <!--Dropdown til Sph  -->
+              <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Sph</option>
+                <option value="1">-15.00</option>
+                <option value="2">-14.50</option>
+                <option value="3">-14.00</option>
+                <option value="4">-13.50</option>
+                <option value="5">-13.00</option>
+                <option value="6">-12.50</option>
+                <option value="7">-12.00</option>
+                <option value="8">-11.50</option>
+                <option value="9">-11.00</option>
+                <option value="10">-10.50</option>
+                <option value="11">-10.00</option>
+                <option value="12">-9.50</option>
+                <option value="13">-9.00</option>
+                <option value="14">-8.50</option>
+                <option value="15">-8.00</option>
+                <option value="16">-7.50</option>
+                <option value="17">-7.00</option>
+                <option value="18">-6.50</option>
+                <option value="19">-6.00</option>
+                <option value="20">-5.50</option>
+                <option value="21">-5.00</option>
+                <option value="22">-4.50</option>
+                <option value="23">-4.00</option>
+                <option value="24">-3.50</option>
+                <option value="25">-3.00</option>
+                <option value="26">-2.50</option>
+                <option value="27">-2.00</option>
+                <option value="28">-1.50</option>
+                <option value="29">-1.00</option>
+                <option value="30">-0.50</option>
+                <option value="31">-0.00</option>
+                <option value="32">+0.00</option>
+                <option value="33">+0.50</option>
+                <option value="34">+0.75</option>
+                <option value="35">+1.00</option>
+                <option value="36">+1.25</option>
+                <option value="37">+1.50</option>
+                <option value="38">+1.75</option>
+                <option value="39">+2.00</option>
+                <option value="40">+2.25</option>
+                <option value="41">+2.50</option>
+                <option value="42">+2.75</option>
+                <option value="43">+3.00</option>
+                <option value="44">+3.25</option>
+                <option value="45">+3.50</option>
+                <option value="46">+3.75</option>
+                <option value="47">+4.00</option>
+                <option value="48">+4.25</option>
+                <option value="49">+4.75</option>
+                <option value="50">+5.00</option>
+                <option value="51">+5.20</option>
+                <option value="52">+5.50</option>
+                <option value="53">+5.75</option>
+                <option value="54">+6.00</option>
+                <option value="55">+6.50</option>
+                <option value="56">+7.00</option>
+                <option value="57">+7.50</option>
+                <option value="58">+8.00</option>
+             </select>
+             
+             
+             <!-- Dropdown til Cyl -->
+             <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+               <option class="lol" selected>Cyl</option>
+               <option value="1">-0,75</option>
+               <option value="2">-1,25</option>
+               <option value="3">-1,75</option>
+               <option value="4">-2,25</option>
+             </select>
+
+             <!-- Dropdown til Axe -->
+            <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+            <option class="lol" selected>Axe</option>
+                <option value="1">10</option>
+                <option value="2">20</option>
+                <option value="3">30</option>
+                <option value="4">40</option>
+                <option value="5">50</option>
+                <option value="6">60</option>
+                <option value="7">70</option>
+                <option value="8">80</option>
+                <option value="9">90</option>
+                <option value="10">100</option>
+                <option value="11">110</option>
+                <option value="12">120</option>
+                <option value="13">130</option>
+                <option value="14">140</option>
+                <option value="15">150</option>
+                <option value="16">160</option>
+                <option value="17">170</option>
+                <option value="18">180</option>
+            </select>
+
+            <!-- Dropdown til Add -->
+            <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Add</option>
+                <option value="1">LOW +0,75</option>
+                <option value="2">LOW +1.25</option>
+                <option value="3">MED +1.50</option>
+                <option value="4">MED +1.25</option>
+                <option value="5">HIGH +2.00</option>
+                <option value="6">HIGH +2.50</option>
+            </select>
+
+        <!-- Dropdown til antal pakker -->
+           <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+             <option class="lol" selected>pr.pakke</option>
+             <option value="1">30 pak</option>
+             <option value="2">90 pak</option>
+             <option value="3">180 pak</option>
+          </select>   
+            
+
+           
+            
+
+        </div>
+         <!-- Her kommer række to til dropdown -->
+        <div  id="secondRow" start på anden række>
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault" style="color: white;">
+              V
+            </label>
+
+             <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Skiftefrekvenes</option>
+                <option value="1">1 dag</option>
+                <option value="2">14 dage</option>
+                <option value="3">Måned</option>
+              </select>
+
+              <!--  Dropdown til leverandør-->
+              <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Leverandør</option>
+                <option value="1">Alcon Danmark ApS</option>
+                <option value="2">Bausch & Lomb</option>
+                <option value="3">Disophta</option>
+                <option value="4">Johnson & Johnson </option>
+                <option value="5">Lindcon Linser</option>
+                <option value="6">Vison Care</option>
+                
+              </select>
+              <!--Dropdown til linsetype -->
+              <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Linsetype</option>
+                <option value="1">1-DAY ACUVUE MOIST</option>
+                <option value="2">1-DAY ACUVUE MOIST FOR ASTIGMATISME</option>
+                <option value="3">1-DAY ACUVUE MOIST MULTIFOCAL WITH LARCREON </option>
+                <option value="4">1-DAY ACUVUE TRUEYE  </option>
+                <option value="5">ACUVUE OASYS HYDRALUXE FOR ASTIGMATISME</option>
+                <option value="6">ACUVUE OASYS WITH HYDRALUXE</option>
+              </select>
+
+              <!--Dropdown til radie  -->
+              <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Radie</option>
+                <option value="1">8,50</option>
+                <option value="2">9,00</option>
+              </select>
+
+              <!--Dropdown til diam  -->
+              <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Diam</option>
+                <option value="1">14,30</option>
+              </select>
+              
+              <!--Dropdown til Sph  -->
+              <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Sph</option>
+                <option value="1">-15.00</option>
+                <option value="2">-14.50</option>
+                <option value="3">-14.00</option>
+                <option value="4">-13.50</option>
+                <option value="5">-13.00</option>
+                <option value="6">-12.50</option>
+                <option value="7">-12.00</option>
+                <option value="8">-11.50</option>
+                <option value="9">-11.00</option>
+                <option value="10">-10.50</option>
+                <option value="11">-10.00</option>
+                <option value="12">-9.50</option>
+                <option value="13">-9.00</option>
+                <option value="14">-8.50</option>
+                <option value="15">-8.00</option>
+                <option value="16">-7.50</option>
+                <option value="17">-7.00</option>
+                <option value="18">-6.50</option>
+                <option value="19">-6.00</option>
+                <option value="20">-5.50</option>
+                <option value="21">-5.00</option>
+                <option value="22">-4.50</option>
+                <option value="23">-4.00</option>
+                <option value="24">-3.50</option>
+                <option value="25">-3.00</option>
+                <option value="26">-2.50</option>
+                <option value="27">-2.00</option>
+                <option value="28">-1.50</option>
+                <option value="29">-1.00</option>
+                <option value="30">-0.50</option>
+                <option value="31">-0.00</option>
+                <option value="32">+0.00</option>
+                <option value="33">+0.50</option>
+                <option value="34">+0.75</option>
+                <option value="35">+1.00</option>
+                <option value="36">+1.25</option>
+                <option value="37">+1.50</option>
+                <option value="38">+1.75</option>
+                <option value="39">+2.00</option>
+                <option value="40">+2.25</option>
+                <option value="41">+2.50</option>
+                <option value="42">+2.75</option>
+                <option value="43">+3.00</option>
+                <option value="44">+3.25</option>
+                <option value="45">+3.50</option>
+                <option value="46">+3.75</option>
+                <option value="47">+4.00</option>
+                <option value="48">+4.25</option>
+                <option value="49">+4.75</option>
+                <option value="50">+5.00</option>
+                <option value="51">+5.20</option>
+                <option value="52">+5.50</option>
+                <option value="53">+5.75</option>
+                <option value="54">+6.00</option>
+                <option value="55">+6.50</option>
+                <option value="56">+7.00</option>
+                <option value="57">+7.50</option>
+                <option value="58">+8.00</option>
+            </select>  
+
+
+            <!-- Dropdown til Cyl -->
+            <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Cyl</option>
+                <option value="1">-0,75</option>
+                <option value="2">-1,25</option>
+                <option value="3">-1,75</option>
+                <option value="4">-2,25</option>
+            </select>
+            
+            <!-- Dropdown til Axe  -->
+            <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+            <option class="lol" selected>Axe</option>
+                <option value="1">10</option>
+                <option value="2">20</option>
+                <option value="3">30</option>
+                <option value="4">40</option>
+                <option value="5">50</option>
+                <option value="6">60</option>
+                <option value="7">70</option>
+                <option value="8">80</option>
+                <option value="9">90</option>
+                <option value="10">100</option>
+                <option value="11">110</option>
+                <option value="12">120</option>
+                <option value="13">130</option>
+                <option value="14">140</option>
+                <option value="15">150</option>
+                <option value="16">160</option>
+                <option value="17">170</option>
+                <option value="18">180</option>
+            </select>
+
+
+            <!--Dropdown til Add  -->
+            <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>Add</option>
+                <option value="1">LOW +0,75</option>
+                <option value="2">LOW +1.25</option>
+                <option value="3">MED +1.50</option>
+                <option value="4">MED +1.25</option>
+                <option value="5">HIGH +2.00</option>
+                <option value="6">HIGH +2.50</option>
+            </select>
+
+            <!-- Dropdown til antal pakker -->
+            <select id="drop1" class="form-select" data-width="100px" aria-label="Default select example"  style="color: black;">
+                <option class="lol" selected>pr.pakke</option>
+                <option value="1">30 pak</option>
+                <option value="2">90 pak</option>
+                <option value="3">180 pak</option>
+            </select>   
+            
+
+           
+            
+
+        </div>
+        
+        
+        
+    </div>
+    <div id="abonnementBox" class="container" >
+
+        <div id="chekAbonnement" class="custom-control custom-radio custom-control-inline">
+            <input  type="radio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline1">Deltids kunde</label>
+          </div>
+          <div id="chekAbonnement" class="custom-control custom-radio custom-control-inline">
+            <input  type="radio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline2">Fuldtids kunde</label>
+          </div>
+    </div>
+
+    <div id="done">
+        <button type="button" class="btn btn-primary" style="background-color: #1c283e;">Send</button>
+
+    </div>
+</div>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><!-- CSS only -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

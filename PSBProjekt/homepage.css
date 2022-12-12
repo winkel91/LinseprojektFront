@@ -1,0 +1,53 @@
+#nav{
+    background-color:#1c283e;
+    height: 5vh;
+}
+
+#box{
+    height: 94vh;
+}
+
+#space{
+    margin: 1em;
+
+}
+
+#buttonFrontPage1{
+background-color: #1c283e;
+padding: 10px 77px;
+
+
+}
+#buttonFrontPage2{
+background-color: #1c283e;
+padding: 10px 82.9px;
+
+
+}
+
+#buttonFrontPage3{
+    background-color: #1c283e;
+    padding: 10px 72.9px;
+    
+    
+    }
+
+    #buttonFrontPage4{
+        background-color: #1c283e;
+        padding: 10px 75px;
+        
+        
+        }
+
+#buttonBox{
+    margin-left: 30%; 
+
+}
+
+#img{
+    
+    height:80px;
+
+    margin-left: 60%;
+
+}
