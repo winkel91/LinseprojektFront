@@ -83,6 +83,8 @@ width: 100vh;
     justify-content: center;
     align-content: center;
     border-radius: 11px 11px 11px 11px;
+    max-width: 95%;
+    
    
 }
 
@@ -95,6 +97,7 @@ width: 100vh;
     display: inline;
     flex-direction: row;
     height: 40px;
+    margin: 0.3%;
     
 
 }
@@ -127,14 +130,14 @@ width: 100vh;
     background-color:  rgba(157, 155, 153, 0);
 display: inline;
 margin-top: 10vh; 
-margin-left: 40vh; 
+margin-left: 50vh; 
 justify-content: center;
 align-content: center;
 
 }
 
 #done{
-    margin-bottom: 2vh;   
+    margin-bottom: 5vh;   
 }
 
 
