@@ -1,0 +1,59 @@
+
+  
+
+ 
+  #rightBox{
+    background-color: #5d514107;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 50px ;
+    margin: 10vh;
+    margin-left: 5%;
+    border-radius: 11px 11px 11px 11px;
+  }
+  
+  #leftBox {
+    
+    background-color: #5d514107;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 50px ;
+    margin: 10vh;
+    margin-left: 12%;
+    border-radius: 11px 11px 11px 11px;
+  }
+  #over{
+    margin-left: 10.5vh;
+   
+   
+    
+    
+  }
+  #line{
+    border-bottom: 1px solid #000000;
+
+  }
+  #over1{
+        margin-left: 15vh;
+    
+  }
+  
+  
+  .tool-card{
+    border: 2px solid rgb(250, 242, 242);
+    padding: 10px 10px;
+    margin: 10px 0;
+    color: aliceblue;
+    
+  }
+
+  #background{
+    background-color: rgba(144, 138, 132, 0.267);;
+    display: flex;
+    
+  }
+
+  #o{
+    background-color: rgba(144, 140, 136, 0.096);
+    border: 2px solid rgba(144, 140, 136, 0.096);
+  }
+
+  
