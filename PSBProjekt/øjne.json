@@ -3,20 +3,56 @@
     {
 
         "id":1,
+
         "lstrength":"8.0",
+
         "rstrength":"7.0",
+
         "lradius":"8.50",
+
         "rradius":"8.50",
+
         "ldiameter":"14.30",
+
         "rdiameter":"14.30",
+
         "lcylinder": "-0.75",
+
         "rcylinder": "-0.75",
+
         "laxe": "180",
+
         "raxe": "180",
+
         "laddition": "1.25",
+
         "raddition": "1.0",
+
         "last control": "29-10-2022",
-        "next control": "29-10-2023"
+
+        "next control": "29-10-2023",
+
+        "lsupplier":"ABC",
+
+        "rsupplier":"ABC",
+
+        "lamount":"1",
+
+        "ramount":"1",
+
+        "lprice":"100",
+
+        "rprice":"100",
+
+        "lpacketType":"XL",
+
+        "rpacketType":"XL",
+
+        "lfrequency":"30",
+
+        "rfrequency":"1",
+        
+        "customerName":"lone"
 
     }
 
