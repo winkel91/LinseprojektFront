@@ -1,0 +1,16 @@
+[
+{
+    "date": "22-22-2022",
+    "time": "10:00",
+    "customerId": 1,
+    "employeeId" : 2
+},
+{
+    "date": "24-22-2022",
+    "time": "10:00",
+    "customerId": 4,
+    "employeeId" : 2
+}
+
+
+]

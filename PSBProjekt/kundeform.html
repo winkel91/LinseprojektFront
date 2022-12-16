@@ -17,7 +17,7 @@
     <!-- Nav bar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            a class="navbar-brand" href="homepage.html">
                 <img src="/images/poulstig-briller-logo-hvid.png" alt="..." height="20">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -26,13 +26,13 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Ny Kunde</a>
+                        <a class="nav-link" href="/PSBProjekt/kundeform.html">Ny Kunde</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Katalog</a>
+                        <a class="nav-link" href="/PSBProjekt/katalog.html">Katalog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Kalender</a>
+                        <a class="nav-link" href="/PSBProjekt/kalender.html">Kalender</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -47,7 +47,7 @@
     <h3> Kunde registrering</h3>
 
     <!-- Formular for oprettelse -->
-    <form class="row g-3 p-3">
+    <form class="row g-3 p-3" id="customer-form" method="post" action="http://localhost:8080/createCustomer">
         <div class="col-md-6">
             <label for="form" class="form-label">Kunde nr</label>
             <input type="text" class="form-control" id="inputKundeNr" placeholder="12345" maxlength=5>
@@ -58,7 +58,7 @@
         </div>
         <div class="col-12">
             <label for="form" class="form-label">CPR nummer</label>
-            <input type="number" class="form-control" id="inputCPR" placeholder="123456-1234">
+            <input type="number" name="customerCPR" class="form-control" id="inputCPR" placeholder="123456-1234">
         </div>
         <div class="col-12">
             <label for="form" class="form-label">Mailadresse</label>
@@ -67,7 +67,7 @@
 
         <div class="col-6">
             <label for="form" class="form-label">Fornavn</label>
-            <input type="text" class="form-control" id="inputFornavn">
+            <input type="text" name="customerName"class="form-control" id="inputFornavn">
         </div>
 
         <div class="col-6">
@@ -77,12 +77,12 @@
 
         <div class="col-12">
             <label for="?" class="form-label">Tlf. nummer</label>
-            <input type="text" class="form-control" id="inputTlf">
+            <input type="text" name="customerPhoneNumber" class="form-control" id="inputTlf">
         </div>
 
         <div class="col-12">
             <label for="?" class="form-label">Adresse</label>
-            <input type="text" class="form-control" id="inputAdresse">
+            <input type="text" name="customerAddress" class="form-control" id="inputAdresse">
         </div>
 
         <div class="col-6">
@@ -120,6 +120,10 @@
     </form>
 
 </div>
+<script>
+
+
+</script>
 
 
 </body>
