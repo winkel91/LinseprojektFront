@@ -177,3 +177,136 @@ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   background-color: #161c29;
   border-radius: 11px 11px 11px 11px;
 } 
+#headline{
+  margin-top: 5vh; 
+
+}
+#customerInfoBox{
+height: 30vh;
+width: 100vh;
+
+}
+
+#idNumberBox1{
+  margin-left: 5vh;
+}
+
+#idNumberBox{
+
+  background-color: rgba(157, 155, 153, 0);
+  display: inline;
+  flex-direction: column;
+
+  height: 10vh;
+  justify-content: center;
+  align-content: center;
+  
+  
+  
+
+}
+#inputBox{
+  border-radius: 11px 11px 11px 11px;
+}
+
+#nameBox{
+  background-color:  rgba(157, 155, 153, 0);
+  display: inline;
+  flex-direction: column;
+
+  height: 10vh;
+  justify-content: center;
+  align-content: center;
+  margin: 2vh;
+  
+
+}
+
+#lastNamebox{
+  background-color:  rgba(157, 155, 153, 0);
+  display: inline;
+  flex-direction: column;
+
+  height: 10vh;
+  justify-content: center;
+  align-content: center;
+}
+
+
+#backgroundBox{
+  display: inline;
+  flex-direction: column;
+  height: 94vh;
+}
+
+
+
+
+#back{
+  display: flex;
+  margin-left: 5vw;
+  color: aliceblue;
+ 
+}
+
+#boxOne{
+  display: flex;
+  flex-direction: column;
+  background-color: #1c283eea;
+  height: 35vh;
+  justify-content: center;
+  align-content: center;
+  border-radius: 11px 11px 11px 11px;
+ 
+}
+
+
+
+#drop1{
+  background-color: #f9fafc;
+  
+  width: 18vh;
+  display: inline;
+  flex-direction: row;
+  height: 40px;
+  
+
+}
+
+
+
+#firstRow{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1vh;
+
+
+}
+
+#secondRow{
+  display: flex;
+  align-items: center;
+
+}
+
+#abonnementBox{
+  display: flex;
+  background-color: rgba(157, 155, 153, 0);
+  height: 20vh;
+
+ 
+
+}
+#chekAbonnement{
+  background-color:  rgba(157, 155, 153, 0);
+display: inline;
+margin-top: 10vh; 
+margin-left: 40vh; 
+justify-content: center;
+align-content: center;
+
+}
+
+#done{
+  margin-bottom: 2vh;   
+}
