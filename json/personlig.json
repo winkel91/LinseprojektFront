@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "customerName":"Nanna Øland",
+        "phoneNumber": "11223344",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "29-09-2022",
+        "endDate": "29-10-2022",
+        "status": "Ja"
+    },
+    {
+        "id": 2,
+        "customerName":"Anna Øland",
+        "phoneNumber": "22334455",
+        "mail": "test@mail.com",
+        "CPR": "1122334455",
+        "startDate": "28-09-2022",
+        "endDate": "28-10-2022",
+        "status": "Nej"
+    }
+]
